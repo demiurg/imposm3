@@ -6,15 +6,15 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/omniscale/imposm3/cache"
+	"github.com/demiurg/imposm3/cache"
 
-	"github.com/omniscale/imposm3/cache/query"
-	"github.com/omniscale/imposm3/config"
-	"github.com/omniscale/imposm3/diff"
-	"github.com/omniscale/imposm3/geom/limit"
-	"github.com/omniscale/imposm3/import_"
-	"github.com/omniscale/imposm3/logging"
-	"github.com/omniscale/imposm3/stats"
+	"github.com/demiurg/imposm3/cache/query"
+	"github.com/demiurg/imposm3/config"
+	"github.com/demiurg/imposm3/diff"
+	"github.com/demiurg/imposm3/geom/limit"
+	"github.com/demiurg/imposm3/import_"
+	"github.com/demiurg/imposm3/logging"
+	"github.com/demiurg/imposm3/stats"
 )
 
 var log = logging.NewLogger("")
